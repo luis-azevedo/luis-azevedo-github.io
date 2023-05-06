@@ -36,5 +36,6 @@ jobs:
           echo test, and deploy your project.
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
-
+        with:
+          folder: build
           
